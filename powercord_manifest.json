@@ -3,6 +3,6 @@
     "description": "A discord theme based off of the Dribbblish spicetify theme",   
     "version": "1.0.0",   
     "author": "Doggybootsy#1333",   
-    "theme": "compiled.css",   
+    "theme": "index.scss",   
     "license": "MIT"
 }
