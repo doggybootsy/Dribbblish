@@ -54,9 +54,13 @@
 .platform-win .guilds-1SWlCJ {
   border-radius: 8px 0 0 0;
 }
-.platform-win .backdrop-1wrmKB {
+.platform-win .backdrop-1wrmKB, .platform-win .modal-3c3bKg {
   margin: 23px 10px 10px 72px;
   border-radius: 8px;
+}
+.platform-win .modal-3c3bKg {
+  height: calc(100vh - 33px);
+  width: calc(100vw - 82px);
 }
 .platform-win .root-3R2ngo {
   margin: 23px 10px 10px 72px;
@@ -87,9 +91,13 @@
 .platform-osx .layer-3QrUeG {
   margin-top: 32px !important;
 }
-.platform-osx .backdrop-1wrmKB {
+.platform-osx .backdrop-1wrmKB, .platform-osx .modal-3c3bKg {
   margin: 32px 10px 10px 72px;
   border-radius: 8px;
+}
+.platform-osx .modal-3c3bKg {
+  height: calc(100vh - 42px);
+  width: calc(100vw - 82px);
 }
 .platform-osx .root-3R2ngo {
   margin: 23px 10px 10px 72px;
@@ -310,9 +318,13 @@
   display: flex;
 }
 /* other */
-.backdrop-1wrmKB {
+.backdrop-1wrmKB, .modal-3c3bKg {
   margin: 10px 10px 10px 72px;
   border-radius: 8px;
+}
+.modal-3c3bKg {
+  height: calc(100vh - 20px);
+  width: calc(100vw - 82px);
 }
 .layerContainer-yqaFcK {
   visibility: hidden;
