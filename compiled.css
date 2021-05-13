@@ -1,6 +1,14 @@
 /* linux web */
-.platform-linux .tutorialContainer-2sGCg9 {
+.platform-linux .tutorialContainer-2sGCg9, .platform-web .tutorialContainer-2sGCg9 {
   top: 10px;
+}
+.platform-linux .root-3R2ngo, .platform-web .root-3R2ngo {
+  margin: 10px 10px 10px 72px;
+  border-radius: 8px;
+  height: calc(100% - 20px);
+}
+.platform-linux .tutorialContainer-2sGCg9, .platform-web .tutorialContainer-2sGCg9 {
+  transform: translate(0, 0);
 }
 /* home/create */
 .tutorialContainer-2sGCg9 {
@@ -50,6 +58,11 @@
   margin: 23px 10px 10px 72px;
   border-radius: 8px;
 }
+.platform-win .root-3R2ngo {
+  margin: 23px 10px 10px 72px;
+  border-radius: 8px;
+  height: calc(100% - 32px);
+}
 .platform-win .layer-3QrUeG:not(:first-child) {
   margin-top: 0;
 }
@@ -62,10 +75,10 @@
   top: 0;
 }
 .platform-win .toolbar-1t6TWx .search-36MZv-, .platform-win .toolbar-1t6TWx .inviteToolbar-3F-l2g .iconWrapper-2OrFZ1 {
-  top: 61px !important;
+  top: 57px !important;
 }
 .platform-win .libraryFilter-31ZUa2 {
-  top: 60px !important;
+  top: 56px !important;
 }
 /* Osx stuff */
 .platform-osx .wrapper-3NnKdC {
@@ -78,11 +91,15 @@
   margin: 32px 10px 10px 72px;
   border-radius: 8px;
 }
+.platform-osx .root-3R2ngo {
+  margin: 23px 10px 10px 72px;
+  border-radius: 8px;
+}
 .platform-osx .toolbar-1t6TWx .search-36MZv-, .platform-osx .toolbar-1t6TWx .inviteToolbar-3F-l2g .iconWrapper-2OrFZ1 {
-  top: 91px !important;
+  top: 87px !important;
 }
 .platform-osx .libraryFilter-31ZUa2 {
-  top: 90px !important;
+  top: 86px !important;
 }
 /* User buttons */
 .panels-j1Uci_ > .container-3baos1 {
@@ -131,7 +148,7 @@
 .toolbar-1t6TWx .inviteToolbar-3F-l2g .iconWrapper-2OrFZ1 {
   position: fixed;
   left: 12px;
-  top: 71px;
+  top: 67px;
   margin: 0;
   min-width: 48px;
   height: 48px;
@@ -150,7 +167,7 @@
 .toolbar-1t6TWx .libraryFilter-31ZUa2 {
   position: fixed;
   left: 12px;
-  top: 70px;
+  top: 66px;
   margin: 0;
   width: 48px;
   padding-left: 6px;
@@ -204,7 +221,7 @@
 .toolbar-1t6TWx .search-36MZv- {
   position: fixed;
   left: 12px;
-  top: 71px;
+  top: 67px;
 }
 .toolbar-1t6TWx .search-36MZv- .iconContainer-O4O2CN {
   bottom: 4px;
@@ -292,19 +309,25 @@
 .tutorialContainer-2sGCg9 + [style] + .listItem-GuPuDH {
   display: flex;
 }
-/* Backdrop */
+/* other */
 .backdrop-1wrmKB {
   margin: 10px 10px 10px 72px;
   border-radius: 8px;
 }
+.layerContainer-yqaFcK {
+  visibility: hidden;
+}
+.layerContainer-yqaFcK > * {
+  visibility: visible;
+}
 /* popouts */
-.messagesPopoutWrap-1MQ1bW,.container-enaOkj{
+.messagesPopoutWrap-1MQ1bW, .container-enaOkj {
   position: fixed;
   bottom: 10px;
   left: 72px;
   border-radius: 8px;
 }
 /* Read all */
-#bd-pub-li{
+#bd-pub-li {
   margin-top: 69px;
 }
