@@ -297,3 +297,9 @@
   margin: 10px 10px 10px 72px;
   border-radius: 8px;
 }
+/* popouts */
+[class="recentMentionsPopout-3rCiI6 messagesPopoutWrap-1MQ1bW"],
+[class="container-enaOkj recentMentionsPopout-3rCiI6 group-spacing-16"]{
+    position: absolute;
+    transform: translate(0,-70%);
+}
