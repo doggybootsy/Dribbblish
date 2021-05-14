@@ -57,11 +57,12 @@
     .guilds-1SWlCJ{
         border-radius: 8px 0 0 0;
     }
-    .backdrop-1wrmKB,.modal-3c3bKg{
+    .backdrop-1wrmKB,.modal-3c3bKg,.layer-2KE1M9{
         margin: 23px 10px 10px 72px;
         border-radius: 8px;
+        padding: 0;
     }
-    .modal-3c3bKg{
+    .modal-3c3bKg,.layer-2KE1M9{
         height: calc(100vh - 33px);
         width: calc(100vw - 82px);
     }
@@ -100,7 +101,7 @@
         margin: 32px 10px 10px 72px;
         border-radius: 8px;
     }
-    .modal-3c3bKg{
+    .modal-3c3bKg,.layer-2KE1M9{
         height: calc(100vh - 42px);
         width: calc(100vw - 82px);
     }
@@ -342,7 +343,7 @@
     }
 }
 /* popouts */
-.messagesPopoutWrap-1MQ1bW,.container-enaOkj{
+.messagesPopoutWrap-1MQ1bW,.container-enaOkj,.focusLock-Ns3yie{
     position: fixed;
     bottom: 10px;
     left: 72px;
