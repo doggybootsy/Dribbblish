@@ -1,0 +1,140 @@
+
+.layer-3QrUeG {
+    transform: none !important;
+    opacity: 1 !important;
+    &:not(:first-child){
+        z-index: 100;
+        .developerPortalCtaWrapper-2XNafh,.featureCard-1RR4Tl,.container-2w0lh0,.introDescription-1J4pmi+.flex-1xMQg5,
+        .settingsFormItem-103g1I,.editableFieldsContainer-1LYE1s+.flex-1xMQg5,.previewContainer-1SS3uO,.welcomeChannel-1rFrIO,
+        .checklistContainer-mFJZEJ,.descriptionBox-1EKQKL,.background-1QDuV2,.fieldList-21DyL8,.accountList-33MS45,.connection-1fbD7X,
+        .feature-2w65J5,.codeRedemptionRedirect-1wVR4b,.preview-2nSL_2,.item-26Dhrx,.powercord-entities-manage-tabs,.powercord-keybind{
+            z-index: 1;
+            background: transparent;
+            position: relative;
+            border-radius: 8px;
+            &>div{
+                z-index: 1;
+            }
+            &::before{
+                background-color: var(--background-secondary);
+                border-radius: 8px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                content: '';
+                z-index: 0;
+                top: 0;
+                opacity: .25;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+        .item-26Dhrx:hover{
+            &::before{
+                background-color: var(--background-secondary);
+                border-radius: 8px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                content: '';
+                z-index: 0;
+                top: 0;
+                opacity: .30;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+        [aria-checked="true"].item-26Dhrx{
+            &::before{
+                background-color: var(--background-secondary);
+                border-radius: 8px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                content: '';
+                z-index: 0;
+                top: 0;
+                opacity: .35;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+        .previewContainer-1SS3uO{
+            z-index: 1;
+            background: transparent;
+            position: relative;
+            &>div{
+                z-index: 1;
+            }
+            &::before{
+                background-color: var(--background-secondary);
+                border-radius: 0 0 8px 8px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                content: '';
+                z-index: 0;
+                top: 0;
+                opacity: .25;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+        .checklistHeader-1KWcEY,.header-2Y0-A-,.connectionHeader-2MDqhu{
+            z-index: 1;
+            background: transparent;
+            position: relative;
+            &>div{
+                z-index: 1;
+            }
+            &::before{
+                background-color: var(--background-secondary);
+                border-radius: 8px 8px 0 0;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                content: '';
+                z-index: 0;
+                top: 0;
+                opacity: .25;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+        .introDescription-1J4pmi+.flex-1xMQg5::before,.settingsFormItem-103g1I::before,.editableFieldsContainer-1LYE1s+.flex-1xMQg5::before{
+            background-color: var(--background-secondary);
+            border-radius: 8px;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            content: '';
+            z-index: 0;
+            top: 0;
+            opacity: .25;
+            padding: 0 16px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        [id]>div>.children-rWhLdy .colorStandard-2KCXvj+.flex-1xMQg5{
+            z-index: 1;
+            background: transparent;
+            position: relative;
+            &>div{
+                z-index: 1;
+            }
+            &::before{
+                background-color: var(--background-tertiary);
+                border-radius: 8px 8px 0 0;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                content: '';
+                z-index: 0;
+                top: 0;
+                opacity: .25;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+    }
+}
