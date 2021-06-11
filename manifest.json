@@ -1,0 +1,8 @@
+{
+    "name": "Dribbblish",
+    "description": "A discord theme based off of the Dribbblish spicetify theme | new imports",   
+    "version": "1.0.1",   
+    "author": "Doggybootsy#1333",   
+    "theme": "index.scss",   
+    "license": "MIT"
+}
