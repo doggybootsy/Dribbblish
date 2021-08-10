@@ -2,10 +2,11 @@
   "name": "dribbblish",
   "version": "1.0.0",
   "description": "A discord theme based off of the Dribbblish spicetify theme",
-  "main": "index.js",
+  "main": "script/index.js",
   "scripts": {
     "test": "sass --watch ./src/index.scss:./dist/compiled.css --style compressed",
-    "build": "sass ./src/index.scss:./dist/compiled.css --style compressed"
+    "manifest": "node .",
+    "build": "sass ./src/index.scss:./dist/compiled.css --style compressed && node ."
   },
   "repository": {
     "type": "git",
