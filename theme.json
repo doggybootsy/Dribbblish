@@ -3,7 +3,7 @@
     "description": "A discord theme based off of the Dribbblish spicetify theme",   
     "version": "1.0.1",   
     "author": "Doggybootsy#1333",   
-    "theme": "./src/dist/compiled.css",   
+    "theme": "./dist/compiled.css",   
     "license": "MIT",
     "source": "https://github.com/doggybootsy/Dribbblish",
     "website": "https://doggybootsy.github.io/"
