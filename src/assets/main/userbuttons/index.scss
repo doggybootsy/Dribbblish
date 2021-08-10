@@ -1,0 +1,18 @@
+.panels-j1Uci_>.container-3baos1{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 66px;
+    border-radius: .85rem;
+    background-color: var(--background-primary);
+    height: 130px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    width: 32px;
+    left: 12px;
+    -webkit-app-region: none;
+    .flex-1xMQg5{
+        flex-direction: column;
+    }
+    @import "./avatar.scss", "./name.scss";
+}

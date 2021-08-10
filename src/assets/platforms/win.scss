@@ -1,0 +1,37 @@
+.platform-win{
+    .typeWindows-1za-n7 {
+        position: fixed;
+        right: 0;
+        border-radius: 8px;
+        background: var(--background-secondary-alt);
+        .wordmarkWindows-1v0lYD {
+            position: fixed;
+            color: var(--text-muted);
+        }
+    }
+    .standardSidebarView-3F1I7i {
+        position: fixed;
+        top: 10px;
+        left: 72px;
+        right: 10px;
+        bottom: 10px;
+        border-radius: 8px;
+        contain: strict;
+    }
+    .tutorialContainer-2sGCg9 {
+        top: 22px;
+    }
+    .sidebar-2K8pFh {
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .layer-3QrUeG {
+        top: 0;
+        padding-top: 0;
+    }
+    .toolbar-1t6TWx .search-36MZv-,
+    .toolbar-1t6TWx .inviteToolbar-3F-l2g .iconWrapper-2OrFZ1,
+    .libraryFilter-31ZUa2{
+        top: 76px !important;
+    }
+}

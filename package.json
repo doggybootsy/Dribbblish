@@ -1,0 +1,23 @@
+{
+  "name": "dribbblish",
+  "version": "1.0.0",
+  "description": "A discord theme based off of the Dribbblish spicetify theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch ./src/index.scss:./src/dist/compiled.css --style compressed",
+    "build": "sass ./src/index.scss:./src/dist/compiled.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doggybootsy/Dribbblish.git"
+  },
+  "keywords": [
+    "Dribbblish"
+  ],
+  "author": "Doggybootsy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doggybootsy/Dribbblish/issues"
+  },
+  "homepage": "https://github.com/doggybootsy/Dribbblish#readme"
+}

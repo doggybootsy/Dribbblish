@@ -1,0 +1,13 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name           Dribbblish
+    @namespace      https://github.com/doggybootsy/Dribbblish
+    @version        1.0.1
+    @description    A discord theme based off of the Dribbblish spicetify theme
+    @author         Doggybootsy#1333
+    ==/UserStyle== */
+
+    @import url('https://doggybootsy.github.io/src/dist/compiled.css');
+
+
+}

@@ -1,0 +1,23 @@
+.inviteToolbar-3F-l2g{
+    .divider-3FBTu8{
+        display: none;
+    }
+    .iconWrapper-2OrFZ1{
+        position: fixed;
+        left:12px;
+        top:66px;
+        margin: 0;
+        min-width: 48px;
+        height: 48px;
+        background-color: var(--background-primary);
+        border-radius: 24px;
+        transition: background-color .15s ease-out,color .15s ease-out,border-radius .2s ease-out;
+        .icon-22AiRD{
+            margin: 12px;
+        }
+        &:hover{
+            background-color: var(--brand-experiment);
+            border-radius: .85rem;
+        }
+    }
+}

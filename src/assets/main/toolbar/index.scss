@@ -1,0 +1,16 @@
+.toolbar-1t6TWx{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 12px;
+    bottom: 224px;
+    padding: 4px;
+    border-radius: .85rem;
+    background-color: var(--background-primary);
+    -webkit-app-region: none;
+    &>*{
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    @import "./invite.scss", "./Library.scss", "./search.scss";
+}

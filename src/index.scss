@@ -1,0 +1,45 @@
+@import "./assets/index.scss";
+
+/* Border */
+.backdrop-1wrmKB, .modal-3c3bKg{
+    margin: 10px 10px 10px 72px;
+    border-radius: 8px;
+}
+
+.layer-3QrUeG{
+    transform: none !important;
+    opacity: 1 !important;
+    margin: 10px 10px 10px 72px;
+    border-radius: 8px;
+    &:not(:first-child){
+        z-index: 100;
+    }
+    .layers-3iHuyZ>&.animating-rRxada *,
+    .layers-3iHuyZ>&.animating-rRxada {
+        pointer-events: auto !important;
+        will-change: unset;
+    }
+    &.animating-rRxada.stop-animations {
+        z-index: 100 !important;
+    }
+    .layers-3iHuyZ > &.animating-rRxada:first-child {
+        z-index: 130;
+    }
+}
+/* Osx stuff */
+.platform-osx{
+    .wrapper-3NnKdC {
+        margin-top: 0;
+        .scroller-1Bvpku {
+            padding-top: 4px;
+        }
+    }
+    .tutorialContainer-2sGCg9{
+        top: 32px;
+    }
+    .toolbar-1t6TWx .search-36MZv-,
+    .toolbar-1t6TWx .inviteToolbar-3F-l2g .iconWrapper-2OrFZ1, 
+    .libraryFilter-31ZUa2{
+        top:86px !important;
+    }
+}

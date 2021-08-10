@@ -4,5 +4,7 @@
     "version": "1.0.1",   
     "author": "Doggybootsy#1333",   
     "theme": "./src/dist/compiled.css",   
-    "license": "MIT"
+    "license": "MIT",
+    "source": "https://github.com/doggybootsy/Dribbblish",
+    "website": "https://doggybootsy.github.io/"
 }
