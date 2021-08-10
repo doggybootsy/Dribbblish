@@ -1,0 +1,38 @@
+&.colorPremium--X5Fw0 {
+    position: fixed;
+    left: 12px;
+    border-radius: 50%;
+    top: 129px;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    transition: color .15s ease-out,border-radius .2s linear;
+    &:hover {
+        border-radius: 16px;
+    }
+    &:not(:hover) .closeButton-3cJIM4 {
+        background: none;
+    }
+    .closeButton-3cJIM4 {
+        border-radius: 50%;
+        background-position: 50% 20px;
+        width: 48px;
+        height: 48px;
+        position: absolute;
+    }
+    .button-2DhvE9 {
+        display: none;
+    }
+    &:hover .premiumIcon-2lve6h {
+        display: none;
+    }
+    .premiumIcon-2lve6h {
+        position: absolute;
+        margin: 0;
+        border-radius: 50%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
