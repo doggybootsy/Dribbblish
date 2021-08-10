@@ -2,7 +2,7 @@
     "name": "Dribbblish",
     "description": "A discord theme based off of the Dribbblish spicetify theme",   
     "version": "1.0.1",   
-    "author": "Doggybootsy#1333",   
+    "author": "Doggybootsy",   
     "theme": "./dist/compiled.css",   
     "license": "MIT"
 }

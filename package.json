@@ -4,9 +4,8 @@
   "description": "A discord theme based off of the Dribbblish spicetify theme",
   "main": "script/index.js",
   "scripts": {
-    "test": "sass --watch ./src/index.scss:./dist/compiled.css --style compressed",
-    "manifest": "node .",
-    "build": "sass ./src/index.scss:./dist/compiled.css --style compressed && node ."
+    "sass": "sass --watch ./src/index.scss:./dist/compiled.css --style compressed",
+    "build": "node ."
   },
   "repository": {
     "type": "git",
